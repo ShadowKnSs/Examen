@@ -12,7 +12,7 @@ import { TaskListComponent } from "./Components/task-list/task-list.component";
 
 export class AppComponent {
   tasks: Task[] = [
-    { id: 1, title: 'Hacer Examen', completed: false },
+    { id: 1, title: 'Hacer Examen', completed: true },
     { id: 2, title: 'Tarea de Angular', completed: false},
     { id: 3, title: 'Ir al super', completed: false },
     { id: 4, title: 'Leer libro', completed: false },
@@ -21,7 +21,7 @@ export class AppComponent {
     {id: 7, title: 'Tirar la basura', completed: false },
     { id: 8, title: 'Pasear al perro', completed: false },
     { id: 9, title: 'Ir al gimnasio', completed: false },
-    { id: 10, title: 'Dormir', completed: true }
+    { id: 10, title: 'Dormir', completed: false }
 
   ];
 
